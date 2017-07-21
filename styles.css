@@ -42,7 +42,7 @@ header {
 
 #nav-links {
   display: flex;
-  flex-basis: 80%;
+  flex-basis: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -148,6 +148,10 @@ footer p {
   line-height: 2.0em;
 }
 
+#about a {
+  color: #b69b77;
+}
+
 #about section {
   width: 800px;
   margin: 0 auto;
@@ -185,9 +189,13 @@ footer p {
   width: 150px;
 }
 
+#caption {
+  line-height: 1.3;
+}
+
 #about blockquote {
   border-left-style: solid;
-  border-left-color: #4f3f2a;
+  border-left-color: #b69b77;
   border-width: 3px;
   padding-left: 20px;
 }
@@ -225,7 +233,7 @@ thead td {
 }
 
 .dark-shade {
-  background-color: #ffa54f;
+  background-color: #dbc1a0;
 }
 
 .light-shade {
