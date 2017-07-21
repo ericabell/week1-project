@@ -358,7 +358,7 @@ input {
   flex-basis: 100%;
 }
 
-#submit-button {
+#signupButton {
   height: 60px;
   width: 160px;
   background-color: #968772;
