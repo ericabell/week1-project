@@ -75,18 +75,20 @@ footer p {
 
 /*HOME BEGIN*/
 #index {
-  width: 800px;
+  width: 95%;
   margin: 0 auto;
 }
 
 #index h1 {
   text-align: center;
   font-family: Lora;
+  font-size: 4em;
 }
 
 #index h2 {
   text-align: center;
   font-family: Lora;
+  font-size: 2em;
 }
 
 #image-gallery {
@@ -95,46 +97,89 @@ footer p {
   color: #ffffff;
 }
 
+.pic-caption {
+  padding: 20px;
+  background-color: #40301a;
+  margin-bottom: 20px;
+}
+
 #image-1 {
   background-image: url("images/product-1.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 60%;
+  margin: 10px;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-2 {
   background-image: url("images/product-2.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 15%;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-3 {
   background-image: url("images/product-3.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 17%;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-4 {
   background-image: url("images/product-4.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 17%;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-5 {
   background-image: url("images/product-5.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 17%;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-6 {
   background-image: url("images/product-6.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 39%;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #image-7 {
   background-image: url("images/product-7.jpg");
-  height: 100px;
-  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-basis: 17%;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
 
