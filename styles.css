@@ -391,5 +391,18 @@ input {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #999;
+  cursor: pointer;
+}
+
+#signupButton:hover {
+  background-color: #3e8e41;
+}
+
+#signupButton:active {
+  background-color: #3e8e41;
+  box-shadow: 5px 5px #666;
+  transform: translateY(4px);
 }
 /*NEWSLETTER END*/
