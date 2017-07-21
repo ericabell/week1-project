@@ -26,10 +26,15 @@ body {
 
 header {
   background-color: #ffffff;
+  position:fixed;
+  top:0px;
+  width: 100%;
 }
+
 
 /*NAVIGATION BAR BEGIN*/
 #nav-bar {
+
   width: 100%;
   display: flex;
 }
@@ -76,7 +81,7 @@ footer p {
 /*HOME BEGIN*/
 #index {
   width: 95%;
-  margin: 0 auto;
+  margin: 150px auto;
 }
 
 #index h1 {
@@ -193,7 +198,7 @@ footer p {
 #about {
   font-family: Lora;
   /*width: 800px;*/
-  margin: 0 auto;
+  margin: 150px auto;
   line-height: 2.0em;
 }
 
