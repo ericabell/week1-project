@@ -54,12 +54,26 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+#nav-link {
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+
+}
+
 #nav-bar a {
   color: #2B2F26;
-  flex-basis: 120px; /* width of each link */
+  /* flex-basis: 120px; /* width of each link */
+  justify-content: center;
   text-transform: uppercase;
   font-family: Lora;
   font-weight: bold;
+}
+
+#nav-bar a:hover {
+  transform: scale(2);
+  transition: all .4s ease-in-out;
 }
 
 #nav-bar a.active {
