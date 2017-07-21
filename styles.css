@@ -105,6 +105,7 @@ footer p {
 #image-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   color: #ffffff;
 }
 
@@ -124,7 +125,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center center;
   flex-basis: 60%;
-  margin: 10px;
+  /*margin: 10px;*/
   height: 350px;
   display: flex;
   align-items: flex-end;
@@ -136,7 +137,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center center;
   flex-basis: 15%;
-  margin: 10px;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
@@ -146,8 +147,8 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 17%;
-  margin: 10px;
+  flex-basis: 15%;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
@@ -157,9 +158,9 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 17%;
+  flex-basis: 15%;
   height: 200px;
-  margin: 10px;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
@@ -169,8 +170,8 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 17%;
-  margin: 10px;
+  flex-basis: 15%;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
@@ -180,8 +181,8 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 39%;
-  margin: 10px;
+  flex-basis: 40%;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
@@ -191,8 +192,8 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 17%;
-  margin: 10px;
+  flex-basis: 15%;
+  /*margin: 10px;*/
   display: flex;
   align-items: flex-end;
 }
