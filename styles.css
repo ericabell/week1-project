@@ -16,3 +16,117 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 
 */
+
+/*ALL PAGES BEGIN*/
+body {
+  /*background-color: #000000;*/
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+/*NAVIGATION BAR BEGIN*/
+#nav-bar {
+  width: 100%;
+  display: flex;
+}
+
+#nav-logo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+#nav-links {
+  display: flex;
+  flex-basis: 80%;
+  justify-content: center;
+  align-items: center;
+}
+#nav-bar a {
+  color: #2B2F26;
+  flex-basis: 80px; /* width of each link */
+  text-transform: uppercase;
+  font-family: Lora;
+  font-weight: bold;
+}
+/*NAVIGATION BAR END*/
+
+
+/*FOOTER BEGIN*/
+
+/*FOOTER END*/
+
+/*ALL PAGES END*/
+
+/*HOME BEGIN*/
+
+/*HOME END*/
+
+/*ABOUT BEGIN*/
+#about {
+  font-family: Lora;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 2.0em;
+}
+
+#about img#birdhouse {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 30px;
+}
+
+#plant-image {
+  height: 200px;
+  width: 100%;
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#about blockquote {
+  border-left-style: solid;
+  border-width: 2px;
+  padding-left: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*ABOUT END*/
+
+/*NEWSLETTER BEGIN*/
+#newsletter {
+  background-image: url("images/background-2.jpg");
+  height: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#dialog-form {
+  background-color: #ffffff;
+  height: 300px;
+  width: 600px;
+  font-family: Lora;
+  padding: 20px;
+}
+
+#dialog-form h1 {
+  text-align: center;
+}
+
+#dialog-form h2 {
+  font-size: 1.4em;
+  text-align: center;
+}
+/*NEWSLETTER END*/
