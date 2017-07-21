@@ -2,4 +2,4 @@
 - HTML
 - CSS
 
-<img href="mockups/about-page-layout.png">
+![image](mockups/about-page-layout.png)
