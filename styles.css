@@ -57,11 +57,85 @@ header {
 
 /*FOOTER BEGIN*/
 
+footer {
+  margin: 0;
+  background-color: #000000
+}
+
+footer p {
+  color: #ffffff;
+  padding: 20px 20px;
+  font-family: Lora;
+  font-weight: bold;
+}
 /*FOOTER END*/
 
 /*ALL PAGES END*/
 
 /*HOME BEGIN*/
+#index {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#index h1 {
+  text-align: center;
+  font-family: Lora;
+}
+
+#index h2 {
+  text-align: center;
+  font-family: Lora;
+}
+
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+#image-1 {
+  background-image: url("images/product-1.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-2 {
+  background-image: url("images/product-2.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-3 {
+  background-image: url("images/product-3.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-4 {
+  background-image: url("images/product-4.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-5 {
+  background-image: url("images/product-5.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-6 {
+  background-image: url("images/product-6.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+#image-7 {
+  background-image: url("images/product-7.jpg");
+  height: 100px;
+  width: 100px;
+}
+
 
 /*HOME END*/
 
