@@ -58,6 +58,10 @@ header {
   font-family: Lora;
   font-weight: bold;
 }
+
+#nav-bar a.active {
+  color: #968772;
+}
 /*NAVIGATION BAR END*/
 
 
