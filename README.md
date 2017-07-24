@@ -20,20 +20,23 @@
 - Design details of the image gallery
   - Seven images with captions
   - Flexbox is used to arrange and size the images
-  <img src="mockups/home-page-layout.png" width="600">
+
+<img src="mockups/home-page-layout.png" width="600">
 
 
 ## About Page
+- The about page describes the history of the company, the facilities, and different monthly plans that are available.
+- Design details of the about page
+  - Two images which are floated around the text
+  - One page-width image with a parallax scrolling effect
+  - A table with alternating highlighted rows
 
 <img src="mockups/about-page-layout.png" width="600">
 
 ## Newsletter Page
-
+- The newsletter page is a call-to-action for users to enter their name and email address to receive a weekly newsletter
+- Design details of the newsletter page
+  - A form element is used to collect user information
+  - A background image fills the viewport
+  
 <img src="mockups/newsletter-page-layout.png" width="600">
-
-
-
-
-
-
-
